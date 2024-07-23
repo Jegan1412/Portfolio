@@ -12,7 +12,7 @@
 
 /* Root Elements */
 :root {
-    --bg-color:#1f242d;
+    --bg-color: #1f242d;
     --second-bg-color: #323946;
     --text-color: #fff;
     --main-color: #90ee90;
@@ -37,13 +37,13 @@ section {
     overflow: hidden;
 }
 
-.heading{
+.heading {
     text-align: center;
     font-size: 4.5rem;
 }
 
 
-span{
+span {
     color: var(--main-color);
 }
 
@@ -101,7 +101,7 @@ span{
     line-height: 2;
 }
 
-.navbar a:hover, 
+.navbar a:hover,
 .navbar a.current {
     color: var(--main-color);
 }
@@ -168,7 +168,7 @@ span{
 }
 
 /* Home Image */
-.home-image img {  
+.home-image img {
     width: 35vw;
     border-radius: 50%;
     border: none;
@@ -178,13 +178,15 @@ span{
 }
 
 @keyframes shrink-relax {
-    0%{
+    0% {
         transform: scale(1);
     }
-    50%{
+
+    50% {
         transform: scale(0.9);
     }
-    100%{
+
+    100% {
         transform: scale(1);
     }
 }
@@ -199,7 +201,7 @@ span{
 }
 
 /* About Image */
-.about-image img {  
+.about-image img {
     width: 35vw;
     border-radius: 50%;
     border: none;
@@ -217,6 +219,7 @@ span{
 .about-content h3 {
     font-size: 2.6rem;
 }
+
 .about-content p {
     font-size: 2rem;
     margin: 2rem 0 3rem;
@@ -257,7 +260,7 @@ span{
 
 
 /* Qualification Card Front */
-.qualification-front{
+.qualification-front {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -366,7 +369,7 @@ span{
 }
 
 /* Additionals Section */
-.additionals{
+.additionals {
     background: var(--second-bg-color);
 }
 
@@ -452,7 +455,7 @@ span{
 }
 
 /* Contact Section */
-.contact{
+.contact {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -547,6 +550,7 @@ span{
     border-radius: 0.8rem;
     transition: 0.5s ease;
 }
+
 .footer-icon a:hover {
     box-shadow: 0 0 1rem var(--main-color);
 }
@@ -565,6 +569,7 @@ span{
 }
 
 @media (max-width: 1024px) {
+
     /* All */
     section {
         padding: 10rem 3% 2rem;
@@ -618,6 +623,7 @@ span{
 }
 
 @media (max-width: 768px) {
+
     /* Navigation Bar */
     #menu-icon {
         display: block;
@@ -679,7 +685,7 @@ span{
     }
 
     /* Qualification Section */
-    .qualification  {
+    .qualification {
         padding-top: 5rem;
     }
 
@@ -692,9 +698,10 @@ span{
     }
 
     /* Additionals Section */
-    .additionals  {
+    .additionals {
         padding-top: 5rem;
     }
+
     .additionals .heading {
         margin-bottom: 8rem;
     }
@@ -705,7 +712,7 @@ span{
         justify-content: center;
         align-items: center;
     }
-    
+
     .contact-form {
         max-width: 50vw;
     }
@@ -716,6 +723,7 @@ span{
 }
 
 @media (max-width: 425px) {
+
     /* Home Section */
     .home-content h3:nth-of-type(2) {
         max-height: 5vh;
@@ -737,7 +745,7 @@ span{
         column-gap: 2rem;
         margin: 1rem;
         padding-top: 2rem;
-        
+
     }
 
     .qualification-back-grid span {
@@ -745,10 +753,11 @@ span{
     }
 
     @keyframes show {
-        0%{
+        0% {
             transform: translateY(0vh);
         }
-        100%{
+
+        100% {
             transform: translateY(-7vh);
         }
     }
