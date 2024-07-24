@@ -562,12 +562,14 @@ span {
 
 /* Break Points */
 
+/* Laptop Break Point */
 @media (max-width: 1200px) {
     html {
         font-size: 55%;
     }
 }
 
+/* Small Laptop Break Point */
 @media (max-width: 1024px) {
 
     /* All */
@@ -578,9 +580,6 @@ span {
     /* Header */
     .header {
         padding: 2rem 3%;
-    }
-
-    .header {
         gap: 5vw;
     }
 
@@ -622,6 +621,7 @@ span {
     }
 }
 
+/* Tablet Break Point */
 @media (max-width: 768px) {
 
     /* Navigation Bar */
@@ -722,7 +722,8 @@ span {
     }
 }
 
-@media (max-width: 425px) {
+/* All Mobiles Break Point */
+@media (max-width: 520px) {
 
     /* Home Section */
     .home-content h3:nth-of-type(2) {
