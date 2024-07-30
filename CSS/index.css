@@ -304,6 +304,9 @@ span {
     padding: 1rem;
 }
 
+.qualification-back div {
+    font-size: 2rem;
+}
 
 /* Qualification Card Front & Back */
 .qualification-front,
