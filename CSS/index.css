@@ -145,7 +145,7 @@ span {
     color: var(--second-bg-color);
 }
 
-/* Home Contnts - Icons */
+/* Home Contents - Icons */
 .social-media-icons a {
     display: inline-flex;
     justify-content: center;
@@ -170,6 +170,7 @@ span {
 /* Home Image */
 .home-image img {
     width: 35vw;
+    height: 60vh;
     border-radius: 50%;
     border: none;
     box-shadow: 0 0 10px 20px var(--main-color);
@@ -203,6 +204,7 @@ span {
 /* About Image */
 .about-image img {
     width: 35vw;
+    height: 60vh;
     border-radius: 50%;
     border: none;
     box-shadow: 0 0 10px 20px var(--main-color);
@@ -253,7 +255,7 @@ span {
     transform-style: preserve-3d;
 }
 
-.qualification-card:hover {
+.qualification-card:active {
     border-color: var(--main-color);
     transform: rotateY(180deg);
 }
@@ -296,6 +298,7 @@ span {
 /* Qualification Card Back */
 .qualification-back {
     transform: rotateY(180deg);
+    font-size: 1.75rem;
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -304,9 +307,6 @@ span {
     padding: 1rem;
 }
 
-.qualification-back div {
-    font-size: 2rem;
-}
 
 /* Qualification Card Front & Back */
 .qualification-front,
@@ -565,14 +565,12 @@ span {
 
 /* Break Points */
 
-/* Laptop Break Point */
 @media (max-width: 1200px) {
     html {
         font-size: 55%;
     }
 }
 
-/* Small Laptop Break Point */
 @media (max-width: 1024px) {
 
     /* All */
@@ -583,6 +581,9 @@ span {
     /* Header */
     .header {
         padding: 2rem 3%;
+    }
+
+    .header {
         gap: 5vw;
     }
 
@@ -624,7 +625,6 @@ span {
     }
 }
 
-/* Tablet Break Point */
 @media (max-width: 768px) {
 
     /* Navigation Bar */
@@ -725,8 +725,7 @@ span {
     }
 }
 
-/* All Mobiles Break Point */
-@media (max-width: 520px) {
+@media (max-width: 510px) {
 
     /* Home Section */
     .home-content h3:nth-of-type(2) {
