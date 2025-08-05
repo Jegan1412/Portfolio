@@ -203,8 +203,8 @@ span {
 
 /* About Image */
 .about-image img {
-    width: 30vw;
-    height: 60vh;
+    width: 35vw;
+    height: 55vh;
     border-radius: 50%;
     border: none;
     box-shadow: 0 0 10px 20px var(--main-color);
