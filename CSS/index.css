@@ -170,7 +170,7 @@ span {
 /* Home Image */
 .home-image img {
     width: 35vw;
-    height: 50vh;
+    height: 55vh;
     border-radius: 50%;
     border: none;
     box-shadow: 0 0 10px 20px var(--main-color);
