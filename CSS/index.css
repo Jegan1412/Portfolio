@@ -168,6 +168,13 @@ span {
 }
 
 /* Home Image */
+.home-image {
+    width: 35vw;
+    height: 55vh;
+    border-radius: 50%;
+    border: none;
+}
+
 .home-image img {
     width: 35vw;
     height: 55vh;
