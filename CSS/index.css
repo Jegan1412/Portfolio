@@ -207,7 +207,7 @@ span {
     height: 55vh;
     border-radius: 50%;
     border: none;
-    box-shadow: 0 0 10px 20px var(--main-color);
+    box-shadow: 0 0 40px 20px var(--main-color);
     transition: all 3s ease;
     animation: shrink-relax 3s alternate infinite;
 }
